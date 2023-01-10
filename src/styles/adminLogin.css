@@ -1,0 +1,45 @@
+
+.login-form-container{
+    background-color: aliceblue;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    border-radius: 25px;
+}
+
+h1{
+    margin: 30px;
+}
+
+.login-form-container{
+    text-align: center;
+}
+
+.form_input input{
+    margin: 20px;
+    outline: none;
+    padding: 10px 50px;
+}
+
+.form_input button{
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 60px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 175px;
+}
+
+.form_input button:hover{
+    background-color: green;
+    color: white;
+}
+
+.login-button{
+    margin-top: -75px;
+}

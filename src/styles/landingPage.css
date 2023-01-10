@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+.landingPage{
+    background-image: url('/public/images/background.jpg');
+    background-size: contain;
+    height: 100vh;
+}
+
+.select-login{
+    background-color: aliceblue;
+    width: 800px;
+    height: 600px;
+    position: fixed;
+    top: 150px;
+    left: 550px;
+    border-radius: 25px;
+}
+
+.login-button{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.login-form{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.login-button a{ 
+    border: 1px solid #0f0f0f;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.2s;
+    color: black;
+    padding: 20px 50px ;
+    margin: 0px 10px;
+}
+
+.login-button a:hover{
+    color: #fff;
+}
+
+#admin-login:hover{
+    background-color: red;
+}
+
+#user-login:hover{
+    background-color: green;
+}

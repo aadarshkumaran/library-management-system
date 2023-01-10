@@ -1,0 +1,40 @@
+.form-add-book{
+    background-color: aliceblue;
+    width: 800px;
+    height: 550px;
+    position: relative;
+    top: 10px;
+    left: 350px;
+    border-radius: 25px;
+}
+
+.form-add-book form{
+    display: fl;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.form-add-book button{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 175px;
+  }
+  
+  .form-add-book button:hover{
+      background-color: green;
+      color: white;
+  }
+
+.form-add-book input, .form-add-book textarea{
+    margin: 5px;
+    outline: none;
+    padding: 10px 50px;
+}

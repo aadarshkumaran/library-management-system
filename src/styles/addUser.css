@@ -1,0 +1,41 @@
+.form{
+    background-color: aliceblue;
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    border-radius: 25px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 255px;
+    width: 50%;
+}
+
+.form-container button{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 175px;
+    position: relative;
+    right: 175px;
+  }
+  
+  .form-container button:hover{
+      background-color: green;
+      color: white;
+  }
+
+  .form-container input {
+    padding: 8px 16px;
+    margin: 5px;
+  }
+

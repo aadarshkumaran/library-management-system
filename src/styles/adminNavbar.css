@@ -1,0 +1,31 @@
+.admin-navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+    padding: 20px 0px;
+}
+
+.link li{
+    display: inline-block;
+    margin: 0px 6px;
+}
+
+.link a{
+    background-color: transparent;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    transition: 0.2s;
+}
+
+.link a:hover{
+    background-color: goldenrod;
+}
+
+
+
