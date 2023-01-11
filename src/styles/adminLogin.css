@@ -20,7 +20,7 @@ h1{
 .form_input input{
     margin: 20px;
     outline: none;
-    padding: 10px 50px;
+    padding: 10px 150px 10px 10px;
 }
 
 .form_input button{

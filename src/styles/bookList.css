@@ -15,7 +15,9 @@
 
 .book-card img{
     margin: 30px;
-    size: 50%;
+    width: 150px;
+    height: 200px;
+    
 }
 
 .delete-button{
