@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import "../styles/landingPage.css"
 
-
 const LandingPage = () =>{
     let redUser = '/images/red-login.png'
     let greenUser = '/images/green-login.png'
     return(
         <div className="landingPage">
+            <div className="image-png">
+                <img src="images/people-clipart-man.png" alt="" />
+            </div>
             <div className="select-login">
                 <div className="login-form">
                 <h1>Library Management System</h1>

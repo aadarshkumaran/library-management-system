@@ -30,7 +30,8 @@ const AddUser = () => {
     }
     return ( 
     <div className="add-user">
-        <h1>add user</h1>
+        <h1>Add User</h1>
+        <hr />
         <div className="form">
             <div className="form-container">
                 <form action="" onSubmit={handleSubmit}>
@@ -38,7 +39,7 @@ const AddUser = () => {
                     <input type="text" placeholder="name" value={name} onChange={(e)=>setName(e.target.value)} />
                     </div>
                     <div className="age">
-                    <input type="number" placeholder="age" value={age} onChange={(e)=>setAge(e.target.value)} />
+                    <input type="number" placeholder="age" min="1" value={age} onChange={(e)=>setAge(e.target.value)} />
                     </div>
                     <div className="email">
                     <input type="text" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}  />

@@ -1,3 +1,7 @@
+.add-book h1{
+    text-align: center;
+}
+
 .form-add-book{
     background-color: aliceblue;
     width: 800px;
@@ -6,14 +10,6 @@
     top: 10px;
     left: 350px;
     border-radius: 25px;
-}
-
-.form-add-book form{
-    display: fl;
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    left: 50px;
 }
 
 .form-add-book button{

@@ -6,7 +6,7 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    background-color: burlywood;
+    background-color: #7917ba;
     padding: 20px 0px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .link a:hover{
-    background-color: goldenrod;
+    background-color: #9900ff ;
 }
 
 

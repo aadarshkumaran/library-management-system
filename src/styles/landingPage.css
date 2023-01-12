@@ -5,19 +5,26 @@
 }
 
 .landingPage{
-    background-image: url('/public/images/background.jpg');
-    background-size: contain;
+    background-image: url('/public/images/layered-steps-haikei.svg');
+    background-size: cover;
     height: 100vh;
 }
 
+.image-png img{
+    width: 35%;
+    position: relative;
+    top: 55px;
+    left: 35px;
+}
+
 .select-login{
-    background-color: aliceblue;
-    width: 800px;
-    height: 600px;
-    position: fixed;
-    top: 150px;
-    left: 550px;
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    left: 1050px;
     border-radius: 25px;
+    background-color: aliceblue;
 }
 
 .login-button{
@@ -29,16 +36,15 @@
 
 .login-form{
     position: relative;
-    top: 150px;
+    top: 90px;
     text-align: center;
 }
 
 .login-button a{ 
-    border: 1px solid #0f0f0f;
+    border: 1px solid gray;
     border-radius: 3px;
     text-decoration: none;
     transition: 0.2s;
-    color: black;
     padding: 20px 50px ;
     margin: 0px 10px;
 }
@@ -47,10 +53,19 @@
     color: #fff;
 }
 
+#admin-login{
+    color:red;
+}
+
 #admin-login:hover{
     background-color: red;
+    color: #fff;
+}
+#user-login{
+    color: green;
 }
 
 #user-login:hover{
     background-color: green;
+    color: #fff;
 }

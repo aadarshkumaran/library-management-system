@@ -50,10 +50,10 @@ const AddBook = () => {
                     <input value={pageCount} type="text" required placeholder="Enter Total no. of Pages" onChange={(e)=>setPage(e.target.value)} />
                 </div>
                 <div className="short-desc">
-                    <textarea value={shortDescription} type="text" required placeholder="Enter Short Description" onChange={(e)=>setShort(e.target.value)} />
+                    <textarea value={shortDescription} required placeholder="Enter Short Description" onChange={(e)=>setShort(e.target.value)} />
                 </div>
                 <div className="short-desc">
-                    <textarea value={longDescription} type="text" required placeholder="Enter Long Description" onChange={(e)=>setLong(e.target.value)} />
+                    <textarea value={longDescription}  required placeholder="Enter Long Description" onChange={(e)=>setLong(e.target.value)} />
                 </div>
                 <div className="thumbnail-url">
                     <input value={thumbnailUrl} type="text" required placeholder="Enter the thumbnail URL" onChange={(e)=>setUrl(e.target.value)} />

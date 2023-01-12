@@ -1,10 +1,14 @@
+.admin-login{
+    background-image: url('/public/images/blob-haikei.svg');
+    background-size: cover;
+    height: 100vh;
+}
+
 
 .login-form-container{
-    background-color: aliceblue;
     width: 800px;
-    height: 400px;
     position: absolute;
-    top: 150px;
+    top: 250px;
     left: 550px;
     border-radius: 25px;
 }

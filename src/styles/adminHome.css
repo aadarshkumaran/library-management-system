@@ -1,8 +1,35 @@
-.admin-home{
-    background: linear-gradient(to left, #ffda48,#ffc3a0);
-    height: 100vh;
+.admin-home h1{
+    text-align: center;
 }
 
-.admin-home h1{
-    margin: 0;
+.image-background{
+    text-align: center;
+}
+
+.image-background img{
+    width: 650px;
+    height: 250px;
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 10px;
+}
+
+.blog-content .container{
+    width: 30%;
+    height: 150px;
+    background: #fff;
+    box-shadow: 5px 5px 10px #888888;
+    position: relative;
+    bottom: 100px;
+}
+
+.title-link a{
+    text-decoration: none ;
+    color: grey;
+
 }
