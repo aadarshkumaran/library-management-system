@@ -1,0 +1,25 @@
+.error-404{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 140px;
+    margin-left: 198px;
+}
+
+/* .image-404 img {
+    height: auto;
+    max-width: 40%;
+} */
+
+.error-404 h1{
+    margin-left: 0;
+    font-size: 150px;
+    color: rgb(67, 67, 67);
+}
+
+.text{
+    font-size: 30px;
+}
+
+.error-code{
+    margin: 10px 0px;
+}

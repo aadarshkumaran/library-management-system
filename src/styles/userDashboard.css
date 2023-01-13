@@ -1,0 +1,138 @@
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    margin: 30px 350px;
+    box-shadow: 0px 1px 8px gray;
+}
+
+.box1 h1{
+    margin-left: 0;
+    font-size: 55px;
+    text-decoration: underline rgb(0, 204, 255) solid 2px;
+    text-underline-offset: 17px;
+}
+
+.image img{
+    width: 1180px;
+    padding: 25px 0px;
+    margin: 0px 350px;
+}
+
+.box2-content{
+    padding: 10px 20px;
+    margin: 0px 450px;
+    box-shadow: 0px 1px 8px gray;
+    position: relative;
+    bottom: 210px;
+    background-color: #fff;
+}
+
+.box2-content h1{
+    margin-left: 0;
+    font-size: 35px;
+    text-decoration: underline rgb(0, 204, 255) solid 2px;
+    text-underline-offset: 17px;
+}
+
+.text p{
+    font-size: 15px;
+}
+
+.get-started{
+    text-align: right;
+}
+.get-started button{
+    border: none;
+}
+
+.get-started a{
+    display: block;
+    padding: 1px 10px;
+    line-height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    background: #46afff;
+}
+.get-started a span {
+    position: relative;
+    z-index: 2;
+}
+
+.get-started a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #006eff;
+    transition: all .35s;
+}
+
+.get-started a:hover {
+    color: #fff;
+}
+
+.get-started a:hover:after {
+    width: 100%;
+}
+.get-started2 button{
+    border: none;
+    margin: 30px;
+}
+
+.get-started2 a{
+    display: block;
+    padding: 1px 10px;
+    line-height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    border: none;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    background: #e6e6e6;
+}
+.get-started2 a span {
+    position: relative;
+    z-index: 2;
+}
+
+.get-started2 a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #888888;
+    transition: all .35s;
+}
+
+.get-started2 a:hover {
+    color: #fff;
+}
+
+.get-started2 a:hover:after {
+    width: 100%;
+}
+
+.image-2 img{
+    width: 100%;
+}
+
+.box3-content{
+    background-color: #00b7ff;
+    color: #fff;
+    position: relative;
+    bottom: 350px;
+    text-align: center;
+}

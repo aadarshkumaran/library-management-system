@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom"
+import Page404 from "./404Page"
 import AddBook from "./addBook"
 import AddUser from "./addUser"
 import AdminHome from "./adminHome"
@@ -15,6 +16,7 @@ const AdminDashboard = () => {
             <AdminNavbar/>
             <Routes>
                 <Route path="/" element={<AdminHome/>}/>
+                <Route path="/error-404/" element={<Page404/>}/>
                 <Route path="/books-list/" element={<BookList/>}/>
                 <Route path="/users-list/" element={<UserList/>}/>
                 <Route path="/books-list/:id" element={<ReadBook/>}/> {/*route parameters*/}

@@ -11,11 +11,13 @@ const UserList = () => {
             updateUser(userx)
         }
         fetchUsers()
-    },[])
+    },[user])
 
     let handleDelete = (id,name) =>{
-        updateUser(user.filter((x)=>x.id != id))
-        alert(`${name} has been deleted successfully!`)
+        fetch(`http://localhost:1000/users/${id}`,{
+            method:'DELETE'
+        })
+        alert(`${name} is permanently deleted from server!`)
     }
 
     return(

@@ -24,13 +24,13 @@ const AdminHome = () => {
                 blog.map((data)=>(
                     <div className="container-content">
                         <div className="image-background">
-                            <img src={Photo} alt="" />
+                            <img src={Photo} alt=""/>
                         </div>
                         <div className="blog-content">
                             <div className="container">
                                 <div className="title-link">
                                     <h4>
-                                        <a href="#">{data.title}</a>
+                                        <a href="/admin/error-404/">{data.title}</a>
                                     </h4>
                                 </div>
                                 <div className="posted-by">
@@ -41,7 +41,7 @@ const AdminHome = () => {
                                     {data.shortDescription}</div>
                                 <br />
                                 <div className="read-more">
-                                    <a href="">Read More</a>
+                                    <a href="/admin/error-404/">Read More</a>
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,7 @@ const LandingPage = () =>{
     return(
         <div className="landingPage">
             <div className="image-png">
-                <img src="images/people-clipart-man.png" alt="" />
+                <img src="images/book-reading.png" alt="" />
             </div>
             <div className="select-login">
                 <div className="login-form">
