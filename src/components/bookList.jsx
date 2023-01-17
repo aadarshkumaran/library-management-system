@@ -25,7 +25,7 @@ const BookList = () => {
     let navigate = useNavigate()
     let location = useLocation()//to display button when it is in admin mode,
     let read = (id) =>{
-        if(location.pathname == '/admin')
+        if(location.pathname == '/admin/books-list/')
         navigate(`/admin/books-list/${id}`)
         else navigate(`/user/books-list/${id}`)
     }
@@ -48,7 +48,7 @@ const BookList = () => {
                             <h4>Page Count: {data.pageCount}</h4> <br />
                             <button className="read-button" onClick={()=>read(data.id)}>Read More</button>
                             {/* If the user is admin and location of path is /admin/books-list, display the delete button , user is not supposed to delete the book */}
-                            {location.pathname == '/admin/books-list/' && <button className="delete-button" onClick={()=>handleDelete(data.id,data.title)}>Delete</button>}
+                            {location.pathname === '/admin/books-list/' && <button className="delete-button" onClick={()=>handleDelete(data.id,data.title)}>Delete</button>}
                             </div>
                         </div>
                     ))

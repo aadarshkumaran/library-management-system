@@ -36,6 +36,7 @@ const AddBook = () => {
         <hr />
         <div className="form-container">
             <div className="form-add-book">
+            <div className="form-add-book-input">
             <form action="" onSubmit={handleSubmit}>
                 <div className="title">
                     <input value={title} type="text" required placeholder="Enter Title" onChange={(e)=>setTitle(e.target.value)} />
@@ -60,6 +61,7 @@ const AddBook = () => {
                 </div>
                     <button>Add Book</button>
             </form>
+            </div>
             </div>
         </div>
     </div> 

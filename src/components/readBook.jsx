@@ -4,9 +4,6 @@ import { useParams } from "react-router-dom";
 
 
 const ReadBook = (props) => {
-
-
-
     let [book,setBook] = useState([])    
 
     let params = useParams()
@@ -29,10 +26,9 @@ const ReadBook = (props) => {
 
     return ( 
         <div className="ReadBook">
-          <h1>Read Book</h1>
+          <h1>Whats in "{book.title}" ?</h1>
           {
             <div className="info">
-                <h1>{book.title}</h1>
                 <p>{book.shortDescription}</p>
                 <p>{book.longDescription}</p>
             </div>
